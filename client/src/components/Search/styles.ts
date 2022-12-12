@@ -40,7 +40,20 @@ order: 1px solid #FFF;
 `
 
 export const Result = styled.div`
- display: flex;
- align-items: center;
- justify-content: center;
+    background-image: linear-gradient(90deg, #002F52 35%, #326589);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    p {
+        width: 200px;
+    }
+    img {
+        width: 100px;
+    }
+    &:hover {
+        border: 1px solid white;
+    }
 `
