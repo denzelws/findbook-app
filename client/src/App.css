@@ -1,0 +1,42 @@
+#root {
+ margin: 0;
+ padding: 0;
+}
+
+.header {
+    background-color: #fafafa;
+    display: flex;
+   justify-content: space-around;
+}
+
+.options {
+    display: flex;
+    margin-right: 5rem;
+}
+
+.option {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+    height: 100%;
+    padding: 0 5px;
+    cursor: pointer;
+    font-size: larger;
+    font-weight: 600;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    cursor: pointer;
+    list-style: none;
+    gap: 10px;
+    margin-right: 10px;
+}
+
+
+
+
